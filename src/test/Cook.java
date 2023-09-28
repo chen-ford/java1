@@ -9,8 +9,13 @@ public class Cook extends Employee{
         super(id, name, salary);
     }
 
-    @Override
-    public void work() {
+   @Override
+    public  void work() {
         System.out.println("厨师正在炒菜");
+    }
+
+    public  static String chat(){
+        String string="厨师正在聊天";
+        return string;
     }
 }
